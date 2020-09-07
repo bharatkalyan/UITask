@@ -372,6 +372,8 @@ label {
 .secContent{
     border-bottom: 4px solid #5B022E;
     width: 51px;
+    padding-top: 5px;
+    padding-bottom: 8px;
 }
 /* media queries for all devices */
 
@@ -406,6 +408,8 @@ label {
     .secContent{
         border-bottom: 4px solid #5B022E;
         width: 51px;
+        padding-top: 5px;
+        padding-bottom: 8px;
     }
    
  
