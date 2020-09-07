@@ -365,7 +365,14 @@ label {
 .fa-angle-left, .fa-angle-right,.fa-times{
     cursor: pointer;
 }
-
+.secondNav{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.secContent{
+    border-bottom: 4px solid #5B022E;
+    width: 51px;
+}
 /* media queries for all devices */
 
 /* Desktop */
@@ -392,6 +399,15 @@ label {
         top: 132px !important;
         left: 40px !important;
     }
+    .secondNav{
+        padding-left: 15px;
+        padding-top: 10px;
+    }
+    .secContent{
+        border-bottom: 4px solid #5B022E;
+        width: 51px;
+    }
+   
  
   }
 
