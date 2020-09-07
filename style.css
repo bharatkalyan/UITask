@@ -1,0 +1,458 @@
+.sidebarCont{
+    background-color: #5B022E;
+    color: #fff;
+    border-bottom: 1px solid #C6CBD6;
+    max-width: 35px;
+}
+
+.navActive {
+    color:#5B022E;
+    border-bottom:2px solid #5B022E;
+    font-weight: 600;
+}
+.fa-bars{
+    font-size: large;
+    padding: 3px;
+    position: absolute;
+    vertical-align: text-top;
+    top: 10px;
+    left: 8px;
+}
+.tableBody{
+    height: 90vh;
+    padding-top: 50px;
+}
+.mainBar{
+    width: 100%;
+}
+.sidebar{
+    width: 10%;
+    height: 20px;
+    background-color: #5B022E;
+    color: #fff;
+}
+.navBg{
+   color: #FFFFFF;
+   border-top:1px solid #C6CBD6;
+   border-bottom:1px solid #C6CBD6;
+}
+.firstNav{
+    width: 3%;
+    background-color: #5B022E; 
+    border-bottom: 1px solid #fff;
+}
+.secondSideNav{
+     width: 3%;
+    background-color: #5B022E; 
+}
+.secondNav{
+    width: 97%;
+    background-color: #fff;
+}
+.mainContent{
+    width: 97%;
+    height: 100vh;
+}
+.addBtn> li {
+    color: #fff;
+    float: left;
+    list-style: none;
+    font-size: larger;
+    padding:4px;
+}
+.addBtn> li{
+    padding: 10px;
+    color: #5B022E;
+}
+.addBtnIcon:first-child{
+    background-color: #5B022E !important;
+    color: #fff;
+    padding: 9px;
+    border-radius: 5px !important;
+}
+.iconCont{
+    padding-left: 0px;
+}
+.iconCont > ul{
+    padding-left: 10px;
+    padding-top: 9px;
+}
+.mainTbl{
+    border: 1px solid #DFE2E6
+}
+.table-bordered td, .table-bordered th {
+    border: none !important;
+}
+thead{
+    background: #EBEEF1;
+}
+.searchHeader{
+    background-color: #F4F6F7;
+    border-bottom: 1px solid #DFE2E6;
+}
+.headerSearch{
+    width: 90px;
+    height: 20px;
+    border: 1px solid #D6DEE2;
+}
+.activeSearch{
+    width: 61px;
+    height: 20px;
+    border: 1px solid #D6DEE2;
+}
+.descSearch{
+    width: 155px;
+    height: 20px;
+    border: 1px solid #D6DEE2;
+}
+.mainContent{
+    background-color:#F8F9FA;
+}
+.searchHeader> th{
+    padding: 2px;
+    /* padding-left: 12px; */
+    padding-left:11px;
+}
+.mainHeader> th{
+    font-size: 12px;
+    padding: 5px;
+    padding-left: 12px;
+
+}
+.totRol{
+    color: #757575;
+    font-size: 14px;
+    padding: 27px 0px 0px 67px;
+}
+.rTotal{
+    color: black;
+}
+input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+  }
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color:#FFFFFF;
+}
+.table-striped tbody tr:nth-of-type(even) {
+    background-color:#FAFAFA;
+}
+.table td {
+    padding: 0.45rem;
+    font-size: 13px;
+    font-weight: 500;
+    color: #61737C;
+    padding-left: 12px;
+}
+
+.table td:nth-child(2){
+    color: #5B022E;
+}
+.fa-angle-left{
+    position: absolute;
+    left: 22px;
+    color: #5B022E;
+    border: 1px solid #CED6DE;
+    width: 24px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-right-radius: 0px;
+    border-right: none;
+    height: 38px;
+    padding-left: 8px;
+    
+   
+}
+.sideLeftIcon{
+    padding-top: 20px
+}
+#formtesting{
+    display: none;
+}
+#formtesting{
+    padding-top: 20px;
+}
+.formHeader{
+    border-bottom: 1px solid #CED6DE;
+    color: #5B022E;
+    background-color: #F9FAFB;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 5px 0px 6px 10px;
+}
+.filterFormHeader{
+    border-bottom: 1px solid #CED6DE;
+    color: #F9FAFB;
+    background-color: #5B022E;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 5px 0px 6px 10px;
+}
+.formFooter{
+    border-top: 1px solid #CED6DE;
+}
+.createRoleForm{
+   background-color:  #FFFFFF;
+   border: 1px solid #B4B4B4;
+   width: 402px;
+   height: 400px;
+   /* height: 0px; */
+}
+.viewRoleForm{
+    background-color: #FFFFFF;
+    border: 1px solid #B4B4B4;
+    width: 529px;
+    height: 626px;
+}
+
+
+/* #testing{
+    border: 1px solid #B4B4B4;
+    width: 200px;
+    height: 250px;
+} */
+input[type=checkbox] {
+    cursor: pointer;
+ }
+
+input[type=checkbox]:after {
+ content: " ";
+ background-color: #5B022E;
+ display: inline-block;
+ visibility: visible;
+}
+
+input[type=checkbox]:checked:after {
+  content: "\2713";
+  color: white;
+  padding: 2px;
+  
+}
+.fromInputs{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    box-shadow: none;
+    font-size: 14px;
+    padding: 0px;
+} 
+.fromInputs:focus{
+outline: none;
+box-shadow: none;
+}
+.desField{
+    padding-bottom: 142px;
+}
+.createBtn, .resetBtn{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 27px;
+}
+.mangUserBtnCont, .deactBtnCont{
+    padding-top: 0px;
+    padding-left: 33px;
+}
+.btn-primary{
+    color: #fff;
+    background-color: #5B022E;
+    outline:#5B022E;
+    border-color:#5B022E;
+    font-size: 14px;
+    width: 90px;
+}
+
+.btn-primary:hover{
+    color: #fff;
+    background-color: #5B022E;
+    outline:#5B022E;
+    border-color:#5B022E;
+}
+.btn-warning{
+    color: #5B022E;
+    background-color: #fff;
+    outline: #5B022E;
+    border-color:#5B022E;
+    font-size: 14px;
+    width: 90px;
+}
+.btn-warning:hover{
+    color: #5B022E;
+    background-color: #fff;
+    outline: #5B022E;
+    border-color:#5B022E;
+}
+.form-group{
+    padding-left: 12px;
+    padding-right: 22px;
+}
+.roleName,.descriptionLabel, .calendarCont{
+color: #A4A4A4;
+font-size: 12px;
+padding: 0px;
+}
+.fa-angle-right{
+    float: right;
+    padding-right: 7px;
+    padding-top: 5px;
+}
+#filterRoles{
+    display: none;
+}
+#filterRoles{
+    position: absolute;
+    top: 132px;
+    left: 40px;
+}
+#tblContent{
+    position: absolute;
+    top: 72px;
+    left: 0px;
+}
+.FilterRolesForm{
+    background: #fff;
+}
+.fa-times{
+    float: right;
+    padding-right: 10px;
+    font-size: 22px;
+}
+/* input[type="checkbox"]#checkbox1 {
+    border-color: white !important;
+  background-color:#5B022E !important;
+} */
+.activeCheckCont{
+    padding-bottom: 89px;
+}
+.checkbox1:checked{
+    background-color: teal !important;
+}
+#viewRole{
+    display: none;
+}
+#viewRole{
+    padding-top: 20px;
+}
+.newtable{
+    width: 300px;
+}
+.viewCont{
+    font-size: 13px;
+}
+label {
+    display: inline-block;
+    margin-bottom: -0.5rem;
+}
+.mangUserBtn, .deactBtn{
+    width: 120px;
+}
+.viewSearch{
+    width: 75px;
+    height: 20px;
+    border: 1px solid #D6DEE2;
+}
+.viewactiveSearch{
+    width: 61px;
+    height: 20px;
+    border: 1px solid #D6DEE2;
+}
+.tableFormGroup{
+    margin-bottom: 0px
+}
+.createdCalCont, .modifiedDateCal{
+    padding-left: 0px;
+}
+.fa-angle-left, .fa-angle-right,.fa-times{
+    cursor: pointer;
+}
+
+/* media queries for all devices */
+
+/* Desktop */
+@media (min-width: 1320px) and (max-width: 1400px){
+    .firstNav{
+        width: 3% !important;
+        background-color: #5B022E; 
+        border-bottom: 1px solid #fff;
+    }
+    .secondSideNav{
+         width: 3% !important;
+        background-color: #5B022E; 
+    }
+    .secondNav{
+        width: 97% !important;
+        background-color: #fff;
+    }
+    .mainContent{
+        width: 97% !important;
+        height: 100vh;
+    }
+    #filterRoles{
+        position: absolute !important;
+        top: 132px !important;
+        left: 40px !important;
+    }
+ 
+  }
+
+
+
+@media (min-width: 1024px) and (max-width: 1300px) {
+  
+    .firstNav{
+        width: 5% !important;
+        background-color: #5B022E; 
+        border-bottom: 1px solid #fff;
+    }
+    .secondSideNav{
+         width: 5% !important;
+        background-color: #5B022E; 
+    }
+    .secondNav{
+        width: 95% !important;
+        background-color: #fff;
+    }
+    .mainContent{
+        width: 95% !important;
+        height: 100vh;
+    }
+    #filterRoles {
+        position: absolute !important;
+        top: 132px !important;
+        left: 51px !important;
+    }
+    #viewRole{
+        position: absolute;
+    top: 657px;
+    left: 0px;
+    }
+    #formtesting{
+        position: absolute !important;
+        top: 292px !important;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    
+    
+  }
+  
+  /* 
